@@ -1,0 +1,128 @@
+#content {
+    width: 100%;
+    margin: 0px;
+    padding: 5px 0 5px 0;
+    background-color: black;
+    color: silver;
+}
+
+#header {
+    height: 120px;
+    background: #202010 url(images/bg/header_bg.png);
+}
+
+#header-profile {
+    width: 350px;
+    height: 82px;
+    overflow: hidden;
+    float: left;
+    color: silver;
+}
+
+.menu a {
+    line-height: 38px;
+    display: block;
+    color: #c0c070;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menuhover {
+    line-height: 30px;
+    display: block;
+    color: navy;
+    width: 130px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profileBtn {
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    padding: 4px;
+    margin: 1px;
+    background: -moz-linear-gradient(top,#2f2f1f 0%,#070707 100%);
+    background: -webkit-linear-gradient(top,#2f2f1f 0%,#070707 100%);
+    background: -o-linear-gradient(top,#2f2f1f 0%,#070707 100%);
+    background: linear-gradient(top,#2f2f1f 0%,#070707 100%);
+}
+
+.profileBtn:hover, .profileBtnHover {
+    text-decoration: none;
+    background: navy;
+}
+
+.inblock {
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    background: #202010;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    color: silver;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.block {
+    padding: 5px;
+    background: #202012;
+    overflow: hidden;
+    margin: 0 7px 7px 0;
+    box-shadow: 0 0 4px #cecece;
+    -moz-box-shadow: 0 0 4px #cecece;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+a {
+    outline: none;
+    color: #e0e0a0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+    background: #1b1b0b;
+
+}
+
+h3 {
+    color: #FAFAC0;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+.table tr:nth-child(odd) {
+    background: #333303;
+}
+
+.table th {
+    background: #393903 url(images/table_h.png);
+    height: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+#orders-stats {
+    margin: auto;
+    margin-top: 11px;
+    width: 520px;
+    color: silver;
+}
+
+.order_self {
+    background: #481048 url(images/table_h.png)!important;
+    color: yellow;
+    font-weight: bold;
+}
+
