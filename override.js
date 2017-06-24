@@ -63,3 +63,18 @@ if (btns) {
     for (var i = 0; i < 5; i ++)
          btns.eq(22 + i).css("background", gc);
 }
+
+// HINT: uncomment next block, for enable auto hide after-trade info window
+/*
+ex_trade = function (a,b)
+{ "buy"==a&&(tr="b");"sell"==a&&(tr="s");
+  var c=$("#token").val(),d=$("#"+tr+"_btc").val(),e=$("#"+tr+"_price").val();
+  showLoader();$.post(_url("order"),{trade:a,btc_count:d,btc_price:e,pair:b,token:c},
+  function(a) {
+     "n"==a.error?nPopReady(510,240):nPopReady(430,70);$("#nPopupCon").html(a.data);hideLoader();
+     setTimeout(function() {
+         $("#nPopupCon").hide();
+     }, 700);
+  },"json");
+}
+// */
